@@ -20,11 +20,11 @@ fi
 
 # Download the startssl certs
 echo "Downloading certs..."
-wget --quiet --continue http://www.startssl.com/certs/ca.crt
-wget --quiet --continue http://www.startssl.com/certs/sub.class1.server.ca.crt
-wget --quiet --continue http://www.startssl.com/certs/sub.class2.server.ca.crt
-wget --quiet --continue http://www.startssl.com/certs/sub.class3.server.ca.crt
-wget --quiet --continue http://www.startssl.com/certs/sub.class4.server.ca.crt
+wget --quiet --continue http://aia.startssl.com/certs/ca.crt
+wget --quiet --continue http://aia.startssl.com/certs/sub.class1.server.ca.crt
+wget --quiet --continue http://aia.startssl.com/certs/sub.class2.server.ca.crt
+wget --quiet --continue http://aia.startssl.com/certs/sub.class3.server.ca.crt
+wget --quiet --continue http://aia.startssl.com/certs/sub.class4.server.ca.crt
 
 # Install certs into global keystore
 echo "Adding certs to cacerts keystore (sudo password required)..."
